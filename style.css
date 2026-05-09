@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #24292e, #0366d6);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: white;
+    color: #0366d6;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+nav {
+    background: #222;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px 10%;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #0366d6;
+}
+
+.card,
+.step {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #0366d6;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+code {
+    display: block;
+    background: #222;
+    color: #00ff90;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    background: #0366d6;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #024f9d;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .section {
+        padding: 30px 5%;
+    }
+}
